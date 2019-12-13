@@ -6,14 +6,14 @@ class IconMenuWidget extends StatefulWidget {
 }
 class _IconMenuWidgetState extends State<IconMenuWidget> {
 
-  final _titles = ['OC', 'Swift', 'Java', 'C','C++','C#','Dart','Python'];
+  final _titles = ['菜单', '菜单', '菜单', '菜单','菜单++','菜单#','菜单','菜单'];
   String _movingValue;// 记录正在移动的数据
 
   @override
   Widget build(BuildContext context) {
     return Container(
           width: double.infinity,
-          height: 300,
+          height: 220,
           color: Colors.grey,
           child: GridView(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'dart:async';
+
+import 'package:jifeng/common/screen_util.dart';
 class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
@@ -8,6 +10,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen>{
   @override
   Widget build(BuildContext context){
+    ScreenUtil.instance = ScreenUtil(width: 1242,height: 2688)..init(context);
     return Container(
           color: Colors.white,
           child: Image.network('http://img.zcool.cn/community/01a99d5542ea730000019ae9cf7739.jpg@1280w_1l_2o_100sh.png',fit: BoxFit.cover,),
