@@ -25,7 +25,10 @@ dependencies:
   cupertino_icons: ^0.1.2
   rxdart: ^0.22.0
   cached_network_image: ^2.0.0-rc
-  
+  dio: ^3.0.9
+  oktoast: ^2.3.2
+  dio_cookie_manager: 1.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
